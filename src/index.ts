@@ -1,1 +1,1 @@
-export * from "./graphql";
+export { default as themes } from "./themes";
