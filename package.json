@@ -18,7 +18,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "prepare": "yarn build"
+    "postinstall": "yarn build"
   },
   "peerDependencies": {
     "react": "^18.2.0",
