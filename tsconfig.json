@@ -7,6 +7,7 @@
         "esModuleInterop": true,
         "jsx": "react",
         "module": "commonjs",
+        "moduleResolution": "node",
         "outDir": "./build",
         "strict": true,
         "target": "ESNext"
