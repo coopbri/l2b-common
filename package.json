@@ -1,0 +1,37 @@
+{
+  "name": "l2b-common",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "build/l2b-common.umd.js",
+  "module": "build/l2b-common.es.js",
+  "types": "build/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./build/l2b-common.es.js",
+      "require": "./build/l2b-common.umd.js"
+    }
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "prepack": "yarn build"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.27",
+    "@vitejs/plugin-react-swc": "^3.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.4",
+    "vite-plugin-dts": "^1.7.1"
+  }
+}
