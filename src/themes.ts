@@ -2,13 +2,13 @@
  * L2B theme map.
  */
 const themes = {
-  B: "Body",
-  R: "Reflection",
-  E: "Emotions",
-  A: "Attention",
-  T: "Tenderness",
-  H: "Habits",
-  Emp: "Empowerment",
-};
+  B: { title: "Body", slug: "body" },
+  R: { title: "Reflection", slug: "reflection" },
+  E: { title: "Emotions", slug: "emotions" },
+  A: { title: "Attention", slug: "attention" },
+  T: { title: "Tenderness", slug: "tenderness" },
+  H: { title: "Habits", slug: "habits" },
+  Emp: { title: "Empowerment", slug: "empowerment" },
+} as const;
 
 export default themes;
