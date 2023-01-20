@@ -18,7 +18,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "prepack": "pnpm build"
+    "prepare": "pnpm build"
   },
   "peerDependencies": {
     "react": "^18.2.0",
