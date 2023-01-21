@@ -1,5 +1,5 @@
 /**
- * L2B theme map.
+ * L2B activity themes.
  */
 const themes = {
   B: { title: "Body", slug: "body" },
