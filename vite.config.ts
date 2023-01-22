@@ -13,7 +13,6 @@ const viteConfig = defineConfig({
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
       name: pkg.name,
-      fileName: (format) => `${pkg.name}.${format}.js`,
     },
     rollupOptions: {
       external: ["react", "react-dom"],

@@ -7,8 +7,8 @@
   "types": "build/index.d.ts",
   "exports": {
     ".": {
-      "import": "./build/l2b-common.es.js",
-      "require": "./build/l2b-common.umd.js"
+      "import": "./build/l2b-common.js",
+      "require": "./build/l2b-common.umd.cjs"
     }
   },
   "files": [
