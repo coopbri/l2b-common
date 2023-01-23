@@ -13,6 +13,7 @@
         "target": "ESNext"
     },
     "include": [
-        "src/**/*"
-    ]
+        // NB: nested wildcard allows matches for e.g. `file.interface.ts`
+        "src/**/*.*.ts",
+    ],
 }
