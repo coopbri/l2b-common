@@ -1,2 +1,2 @@
-export { default as Role } from "./Role.enum";
-export { default as UserData } from "./UserData.interface";
+export * from "./Role.enum";
+export * from "./UserData.interface";
