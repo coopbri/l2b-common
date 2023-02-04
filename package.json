@@ -6,6 +6,9 @@
   "main": "build/l2b-common.umd.js",
   "module": "build/l2b-common.es.js",
   "types": "build/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "exports": {
     ".": {
       "import": "./build/l2b-common.js",
