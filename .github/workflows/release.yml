@@ -1,4 +1,4 @@
-name: Release package
+name: Release
 
 on:
   push:
@@ -16,7 +16,7 @@ jobs:
           node-version: "16.x"
       - name: Install dependencies
         run: yarn
-      - name: Create release PR or publish to npm
+      - name: Create release PR or publish to registry
         id: changesets
         uses: changesets/action@v1
         with:
