@@ -6,6 +6,7 @@
   "main": "build/l2b-common.umd.js",
   "module": "build/l2b-common.es.js",
   "types": "build/index.d.ts",
+  "repository": "https://github.com/coopbri/l2b-common.git",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
