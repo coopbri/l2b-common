@@ -16,13 +16,6 @@ jobs:
           node-version: "16.x"
       - name: Install dependencies
         run: yarn
-      - name: Create `.npmrc`
-        run: |
-          cat << EOF > "$HOME/.npmrc"
-            //npm.pkg.github.com/:_authToken=$GITHUB_TOKEN
-          EOF
-        env:
-          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Create release PR or publish to registry
         id: changesets
         uses: changesets/action@v1
@@ -31,3 +24,4 @@ jobs:
           commit: "ci(changesets): version packages"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
