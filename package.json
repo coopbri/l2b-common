@@ -1,7 +1,7 @@
 {
   "name": "l2b-common",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.0.0",
   "type": "module",
   "main": "build/l2b-common.umd.js",
   "module": "build/l2b-common.es.js",
