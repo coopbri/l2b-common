@@ -1,4 +1,4 @@
-Vercel has poor support for Yarn Berry. To get it to work, I manually set the following (for some reason, setting via `vercel.json` doesn't work):
+Vercel has poor support for Yarn Berry. To get it to work, I manually set the following on each L2B Plus Next.js app hosted on Vercel (for some reason, setting via `vercel.json` doesn't work):
 
 - `YARN_ENABLE_IMMUTABLE_INSTALLS=false`
   - See https://stackoverflow.com/a/67740771
