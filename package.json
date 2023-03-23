@@ -3,9 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main": "build/l2b-common.umd.js",
+  "main": "build/l2b-common.cjs",
   "module": "build/l2b-common.js",
-  "types": "build/index.d.ts",
+  "types": "build/l2b-common.d.ts",
   "repository": "coopbri/l2b-common",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -13,7 +13,7 @@
   "exports": {
     ".": {
       "import": "./build/l2b-common.js",
-      "require": "./build/l2b-common.umd.cjs"
+      "require": "./build/l2b-common.cjs"
     }
   },
   "files": [
