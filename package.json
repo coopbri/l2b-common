@@ -22,7 +22,7 @@
   "scripts": {
     "dev": "bun run build --watch",
     "build": "tsup --dts",
-    "prepare": "npm run build"
+    "prepack": "npm run build"
   },
   "peerDependencies": {
     "@clerk/clerk-sdk-node": "^4.6.3",
