@@ -1,6 +1,7 @@
 {
   "name": "l2b-common",
   "private": true,
+  "packageManager": "yarn@3.6.4",
   "version": "0.0.0",
   "type": "module",
   "main": "build/l2b-common.cjs",
