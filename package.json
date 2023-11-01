@@ -20,9 +20,9 @@
     "build"
   ],
   "scripts": {
-    "dev": "yarn build --watch",
+    "dev": "bun run build --watch",
     "build": "tsup --dts",
-    "prepack": "yarn build"
+    "prepack": "bun run build"
   },
   "peerDependencies": {
     "@clerk/clerk-sdk-node": "^4.6.3",
